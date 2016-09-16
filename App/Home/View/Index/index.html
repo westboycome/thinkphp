@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	{//$arr['name']|md5}
+	{//$arr['age']+1}
+	{//$Think.now}
+	{//$Think.version}
+	{//$Think.server.http_host}
+	
+	<volist name='arrlist' id='data' offset='1' length='2' empty='数组为空'>
+		{$data['name']}-------{$data['age']}<br/>
+	</volist>
+	<!-- <foreach name='arrlist' item='data'>
+		{$data['name']}-------{$data['age']}<br/>
+	</foreach> -->
+	<!-- eq= neq!= gt> egt>= lt< elt<= heq=== nheq!==  -->
+	<!-- <for start='1' end='10' comparison='elt' name='k'>
+		{$k}<br/>
+	</for> -->
+	
+	<!-- <if condition='$num gt 10'>num 大于10
+	<elseif condition='$num lt 10'/>num xiaoyu 10
+	<else/>num dengyu 0
+	</if> -->
+	
+	<!-- <switch name='name'>
+		<case value='laoshi'>laoshi</case>
+		<case value='me'>me</case>
+	</switch> -->
+	
+	<!-- 判断语句 
+	<eq name='naum' valuue='10' >num!=23</eq>
+	<eq name='naum' valuue='10' >num!=23 <else/> num=23</eq>
+	
+	<compare name='num' value='23' type='eq'>num=23 <else/> num!=23</compare>
+	-->
+	
+	<!--in notin  between notbetween
+	<between name='num' value='1,30'>you<else/>eiyou</between>
+	<range name='num' vavlue='1,30' type='in'>you<else/>meiyou</range>
+	-->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</body>
+</html>

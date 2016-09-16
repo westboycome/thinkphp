@@ -2,6 +2,8 @@
 
 namespace Home\Controller;
 use Think\Controller;
+use Home\Common;
+
 class IndexController extends Controller {
     
     public function index(){
@@ -18,13 +20,55 @@ class IndexController extends Controller {
          * /immoc/thinkphp/Home/Index/user/id/1.html
          * 3 谦容模式
          *  /immoc/thinkphp/index.php?s=/Home/Index/user/id/1.html
+         *  
+         *  隐藏index.php 
+         *  <Ifmodule mod_rewrite.c>
+        	RewriteEngine on
+        	RewriteConde %{REQUEST_FILENAME}!-d
+        	RewriteConde %{REQUEST_FILENAME}!-f
+        	RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]       
+        </Ifmodule>
+        
+        
          *  */
-        echo C('URL_MODEL').'<br/>';
-        echo U('Index/user',array('id'=>1),'html',false,'localhost');
+//         echo C('URL_MODEL').'<br/>';
+//         echo U('Index/user',array('id'=>1),'html',false,'localhost');
+
+        //show();
+//         $name='xiaoheizi';
+//         $this->name1=$name;
+//         $this->assign('name',$name)->assign('sex','man');
+
+//         $arr['name']='heihei';
+//         $arr['sex']='man';
+//         $arr['age']='27';
+//         $this->assign('arr',$arr);
+           /* $arrlist= array(
+               1=>array('name'=>'fsdf','age'=>'23'),
+               2=>array('name'=>'fddf','age'=>'22'),
+               3=>array('name'=>'fcdf','age'=>'65'),
+               4=>array('name'=>'fjhdf','age'=>'33'),
+               5=>array('name'=>'fsgdf','age'=>'53'),
+               6=>array('name'=>'fsdgd','age'=>'63'),
+               7=>array('name'=>'fsdg','age'=>'27'),
+               8=>array('name'=>'fsdffg','age'=>'33')
+           );
+           $this->assign('arrlist',$arrlist); */
+        $this->assign('num','23');
+       //$this->assign('name','me');
+        
+        $this->display();
     }
     
     public function user() {
-        echo 'id is: '.$_GET['id'].'<br/>';
-        echo 'index模块的user方法';
+        header('content-type:text/html;charset=utf-8');
+        G(run);
+//         echo 'id is: '.$_GET['id'].'<br/>';
+//         echo 'index模块的user方法';
+         trace('name',C('name'));
+         echo C('name');
+          dump($_SERVER);
+         echo G('run','end');
+        $this->display();
     }
 }
