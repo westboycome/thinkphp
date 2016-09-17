@@ -1,0 +1,12 @@
+[ 2016-09-17T10:19:30+08:00 ] ::1 /immoc/thinkphp/index.php?m=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+ERR: 无法加载模块:User
+
+[ 2016-09-17T10:23:26+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&m=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+ERR: 无法加载模块:User
+

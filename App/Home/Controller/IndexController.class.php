@@ -3,6 +3,7 @@
 namespace Home\Controller;
 use Think\Controller;
 use Home\Common;
+use Home\Model;
 
 class IndexController extends Controller {
     
@@ -54,8 +55,89 @@ class IndexController extends Controller {
                8=>array('name'=>'fsdffg','age'=>'33')
            );
            $this->assign('arrlist',$arrlist); */
-        $this->assign('num','23');
+        //$this->assign('num','23');
        //$this->assign('name','me');
+       
+        //CURD
+        //插入
+        $dataList = array(
+            1=>array(
+                'name'=>'xiaoming'
+            ),
+            2=>array(
+                'name'=>'xiaoming'
+            ),
+            3=>array(
+                'name'=>'xiaoming'
+            ),
+        );
+        //M('user')->add($data); 插入一条
+        M('user')->addAll($dataList);//插入多条
+        
+        //查询
+        //1直接使用字符串查询
+//         $data = M('user')->where('id=1')->select();
+        //2使用数组方式查询
+//         $where['id']=2;
+//         $where['user_name']='xiaoming';
+//         $where['_logic']='or';
+//         $data = M('user')->where('id=1')->select();
+        //3表达式查询
+        //where['字段名']=array(表达式，查询条件);
+//         $where['id'] = array('lt',3);
+//         $where['user_name'] = array('like',array('%ming','xiao%'));
+        //4区间查询
+//         $where['id'] = array(array('gt',20),array('lt',4));
+        //5 混合用法
+//         $where['id'] = array('gt',10);
+//         $where['_string'] = 'score>60';
+//         $data = M('user')->where($where)->select();
+        
+        //6统计用法
+        /* 
+         * count
+         * max min avg sum
+         *  */
+//         $data = M('user')->sum('score');
+//        $data = M('user')->max('id');
+        //更新
+//         $update['score'] = 70;
+//         $where['id'] = 1;
+//         $data = M('user')->where($where)->save($update);
+        //删除
+//         M('user')->delete(3);
+           //order
+        M('user')->order('score desc','id asc')->select();
+        //filed true是过滤，默认是false
+//         $field = 'id,user_name';
+//         M('user')->field($field,true)->select();
+        //limit
+        /* $data = M('user')
+        ->order('score desc','id asc')
+        ->limit(2,6)
+        ->select(); */
+        //page
+        $data = M('user')
+        ->order('score desc','id asc')
+        ->page(2,6)
+        ->select();
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         $this->display();
     }
@@ -65,10 +147,39 @@ class IndexController extends Controller {
         G(run);
 //         echo 'id is: '.$_GET['id'].'<br/>';
 //         echo 'index模块的user方法';
-         trace('name',C('name'));
-         echo C('name');
-          dump($_SERVER);
-         echo G('run','end');
-        $this->display();
+//          trace('name',C('name'));
+//          echo C('name');
+//           dump($_SERVER);
+//          echo G('run','end');
+//         $this->display();
+
+        //实例化基础模型 nodel
+        //$user = new Model('user');//表名 表前缀  数据库连接信息 
+//         $user = M('user');
+//         $data = $user->select();
+//         dump($data);
+        //实例化用户自定义
+       // $user = new \UserModel();
+//         $user = D('User');
+//         echo  $user->select();
+        //实例化公共模型
+//         $user = new \CommonModel();
+//         echo $user->strmark('qqq');
+
+        $user = D('User');
+        echo $user->strmark('sdd'); 
+        //实例化空模型
+        $sql = '';
+        $model = M();
+        $model->query($sql);//读取 select
+        $model->execute($sql);//写入 更新 update insert
+        
+        
+        
+        
+        
+        
+        
+        
     }
 }

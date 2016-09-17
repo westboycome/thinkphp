@@ -15,7 +15,7 @@
 	<?php if(is_array($arrlist)): $i = 0; $__LIST__ = array_slice($arrlist,1,2,true);if( count($__LIST__)==0 ) : echo "数组为空" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i; echo ($data['name']); ?>-------<?php echo ($data['age']); ?><br/><?php endforeach; endif; else: echo "数组为空" ;endif; ?>
 	<!-- <?php if(is_array($arrlist)): foreach($arrlist as $key=>$data): echo ($data['name']); ?>-------<?php echo ($data['age']); ?><br/><?php endforeach; endif; ?> -->
 	<!-- eq= neq!= gt> egt>= lt< elt<= heq=== nheq!==  -->
-	<!-- <?php $__FOR_START_13070__=1;$__FOR_END_13070__=10;for($k=$__FOR_START_13070__;$k <= $__FOR_END_13070__;$k+=1){ echo ($k); ?><br/><?php } ?> -->
+	<!-- <?php $__FOR_START_27947__=1;$__FOR_END_27947__=10;for($k=$__FOR_START_27947__;$k <= $__FOR_END_27947__;$k+=1){ echo ($k); ?><br/><?php } ?> -->
 	
 	<!-- <?php if($num > 10): ?>num 大于10
 	<?php elseif($num < 10): ?>num xiaoyu 10

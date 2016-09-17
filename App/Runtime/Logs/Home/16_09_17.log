@@ -1,0 +1,327 @@
+[ 2016-09-17T10:13:23+08:00 ] ::1 /immoc/thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-09-17T10:14:18+08:00 ] ::1 /immoc/thinkphp/index.php?a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2016-09-17T10:15:40+08:00 ] 127.0.0.1 /immoc/thinkphp/index.php?a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2016-09-17T10:16:56+08:00 ] 127.0.0.1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:17:06+08:00 ] ::1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:18:54+08:00 ] ::1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:18:54+08:00 ] ::1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:18:55+08:00 ] ::1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:18:55+08:00 ] ::1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:18:55+08:00 ] ::1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:18:55+08:00 ] ::1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:18:56+08:00 ] ::1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:18:56+08:00 ] ::1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:18:56+08:00 ] ::1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:18:56+08:00 ] ::1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:20:29+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-09-17T10:22:47+08:00 ] ::1 /immoc/thinkphp/index.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+ERR: æ— æ³•åŠ è½½æŽ§åˆ¶å™¨:User
+
+[ 2016-09-17T10:23:13+08:00 ] ::1 /immoc/thinkphp/index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-09-17T10:23:46+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&f=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-09-17T10:24:45+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2016-09-17T10:40:31+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&f=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-09-17T10:40:38+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+
+[ 2016-09-17T10:42:28+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-09-17T10:42:29+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+
+[ 2016-09-17T10:42:30+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-09-17T10:42:39+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-09-17T10:42:39+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+
+[ 2016-09-17T10:42:40+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-09-17T10:42:40+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-09-17T10:42:40+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001987s ]
+
+[ 2016-09-17T10:42:40+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-09-17T10:42:40+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-09-17T10:42:41+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002103s ]
+
+[ 2016-09-17T10:42:41+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-09-17T10:42:41+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-09-17T10:42:42+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-09-17T10:42:42+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-09-17T10:42:42+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-09-17T10:42:42+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-09-17T10:42:43+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+
+[ 2016-09-17T10:42:43+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+
+[ 2016-09-17T10:42:43+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-09-17T10:43:04+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-09-17T10:43:04+08:00 ] ::1 /immoc/thinkphp/index.php?c=index&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-09-17T22:42:11+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-09-17T22:42:44+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-09-17T22:42:57+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-09-17T22:44:04+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-09-17T22:44:19+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-09-17T22:45:28+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2016-09-17T22:45:37+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2016-09-17T22:45:38+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2016-09-17T22:45:46+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2016-09-17T22:45:47+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2016-09-17T22:45:47+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£ 
+
+[ 2016-09-17T22:46:16+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-09-17T22:46:17+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-09-17T22:46:17+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-09-17T22:46:18+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-09-17T22:54:28+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-09-17T22:54:29+08:00 ] ::1 /immoc/thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
