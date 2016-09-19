@@ -7,6 +7,15 @@ use Home\Model;
 
 class IndexController extends Controller {
     
+    public function fangwei(){
+        $user = D('user');
+        $data = $user
+            ->scope('jige,zidingyi')
+            ->limit(4)
+            ->where('id>3')
+            ->select();
+    }
+    
     public function index(){
         header('content-type:text/html;charset=utf-8');
        //$this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>','utf-8');
@@ -117,11 +126,41 @@ class IndexController extends Controller {
         ->limit(2,6)
         ->select(); */
         //page
-        $data = M('user')
-        ->order('score desc','id asc')
-        ->page(2,6)
+//         $data = M('user')
+//         ->order('score desc','id asc')
+//         ->page(2,6)
+//         ->select();
+        //group 分组操作
+        M('user')
+        ->field('score, count(*) as total')
+        ->having('score>=60')
+        ->group('score')
         ->select();
         
+        //多表查询 table 方法 table(array('表名'=>'别名')) 表名需要加前缀
+        M('user')
+        ->table(array('mk_user'=>'user','mk_user_info'=>'info'))
+        ->where('user.id=info.id')
+        ->select();
+        
+        //join查询 inner join 
+        M('user')
+        ->join(array('mk_userinfo On mk_user.id=mk_userinfo.id')) //数组只能关联一个
+        ->join('right join mk_userinfo On mk_user.id=mk_userinfo.id')
+        ->select();
+        
+        
+        //多表查询 union查询 union('string array',true/false);
+        $data = M('user')
+        ->field('user_name')
+        ->union(array('field'=>'user_name','table'=>'mk_user2'),true)
+        ->select();
+        //过滤查询 
+        M('user')
+        ->distinct(true)
+        ->field('score')
+        ->order('score desc')
+        ->select();
         
         
         
